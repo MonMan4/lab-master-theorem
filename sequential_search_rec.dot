@@ -1,0 +1,8 @@
+digraph {
+    node [shape=box fontname="Courier" fontsize="10"]
+    0 [label="sequential_search_rec([1, 2, 3, 4, 5], 3)"]
+    1 [label="sequential_search_rec([2, 3, 4, 5], 3)"]
+    2 [label="sequential_search_rec([3, 4, 5], 3)"]
+    0 -> 1
+    1 -> 2
+}

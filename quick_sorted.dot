@@ -1,0 +1,16 @@
+digraph {
+    node [shape=box fontname="Courier" fontsize="10"]
+    0 [label="quick_sorted([3, 1, 4, 1, 5])"]
+    1 [label="quick_sorted([1, 1])"]
+    2 [label="quick_sorted([])"]
+    3 [label="quick_sorted([1])"]
+    4 [label="quick_sorted([4, 5])"]
+    5 [label="quick_sorted([])" fillcolor="lightblue" style="filled"]
+    6 [label="quick_sorted([5])"]
+    0 -> 1
+    1 -> 2
+    1 -> 3
+    0 -> 4
+    4 -> 5
+    4 -> 6
+}
